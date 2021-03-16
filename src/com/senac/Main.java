@@ -1,7 +1,18 @@
 package com.senac;
 
+import com.senac.models.Usuario;
+
+import java.sql.SQLOutput;
+
 public class Main {
 
+    public static void main(String[] args) {
+
+        Usuario usuario = new Usuario();
+        usuario.verificarIdade(17);
+    }
+
+    /*
     public static void main(String[] args) {
         int idade = 15;
         boolean brasileiro = true;
@@ -52,4 +63,5 @@ public class Main {
             return false;
         }
     }
+     */
 }
